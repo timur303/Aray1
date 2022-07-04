@@ -1,10 +1,12 @@
-package com.company1;
+package com.company12;
 
 public class UchBurch {
-    double a, b, c, s;
+    double a;
+    double b;
+    double c;
 
     void Area() {
-        s = (a + b + c) / 2;
-        System.out.println(Math.sqrt(s * (s - a) * (s - b) * (s - c)));
+        double s = (a+b+c)/2;
+        System.out.println(Math.sqrt(s*(s-a)*(s-b)*(s-c)));
     }
 }
